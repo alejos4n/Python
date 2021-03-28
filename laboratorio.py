@@ -10,6 +10,7 @@ import sympy as sp
 import numpy as np
 import matplotlib.pyplot as plt
 
+#comentario de prueba
 #variable para el ancho de la piscina
 a = sp.symbols('a')
 
