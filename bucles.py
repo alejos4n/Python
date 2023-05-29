@@ -21,6 +21,6 @@ numeros = ["uno", "dos", "tres", "cuatro", "cinco"]
 for i in numeros:
     print(i)
 
-nombres = ["Alejandro", "Andres", "Luisa", "Silvia"]
+nombres = ["Alejandro", "Andres", "Luisa", "SNadia"]
 for i in nombres:
     print("Feliz día ", i)

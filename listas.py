@@ -16,7 +16,7 @@ print("Esto es una tupla: ")
 tupla1 = ("hola", 45, 45.65, "chao")
 print(tupla1)
 
-#diccionario, tiene una calve y valor, va con llaves{}
+#diccionario, tiene una clave y valor, va con llaves{}
 
 print("Esto es un diccionario: ")
 dicci = {"uno": 1, "dos": 2, "tres": 3}
