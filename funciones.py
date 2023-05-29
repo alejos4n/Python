@@ -20,7 +20,7 @@ def calculadora():
     resultado = num1 +num2
     print(resultado)
 
-calculadora()
+#calculadora()
 
 lista = []
 num = 0
