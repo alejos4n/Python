@@ -19,3 +19,11 @@ print("agrego la palabra ""python"" a la lista")
 listanumeros.append("python")
 
 print(listanumeros)
+print("inserto valores en lista")
+print("agrego el numero 10, en la posicion 2(o sea la estrictamente hablando)")
+listanumeros.insert(2, 10)
+print(listanumeros)
+
+
+
+
