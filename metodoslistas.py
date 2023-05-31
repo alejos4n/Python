@@ -14,3 +14,8 @@ print("agrego el 7 a la lista")
 listanumeros.append(7)
 print("imprimo la lista con el 7 agregado")
 print(listanumeros)
+
+print("agrego la palabra ""python"" a la lista")
+listanumeros.append("python")
+
+print(listanumeros)
