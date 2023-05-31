@@ -57,24 +57,3 @@ listab[4] = 2*5
 listab[7] = 2*8
 listab[9] = 2*10
 print(listab)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
