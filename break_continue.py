@@ -11,3 +11,10 @@ for i in range(1, 15):
     if i == 10:
         print("me detuve porque soy igual a 10")
         break
+
+for i in range(1, 10):
+    if i == 6:
+        continue
+    print(i)
+    
+        
