@@ -5,7 +5,7 @@ Created on Fri Oct  1 01:49:27 2021
 
 @author: alejo
 """
-
+#la tupla es inmutable, no se puede modificar
 tupla = ('a', 20, 30,"hola",1000)
 print(tupla)
 print(tupla[4])
