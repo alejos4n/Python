@@ -20,7 +20,7 @@ def calculadora():
     resultado = num1 +num2
     print(resultado)
 
-#calculadora()
+calculadora()
 
 lista = []
 num = 0
@@ -46,9 +46,14 @@ def numeros():
 
 pedir()
 numeros()
-    
-    
-    
+
+#funcion que pide un numero y crea las tablas de multiplicar con el numero solicitado
+def tablas():
+    num = int(input("ingrese un numero: "))
+    for i in range(11):
+        print(num, " x {} = {}".format(i, num*i))
+
+tablas()
     
     
     
