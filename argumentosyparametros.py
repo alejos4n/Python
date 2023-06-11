@@ -19,3 +19,19 @@ def suma():
 print(suma())
 
 #en le codigo anterior cada vez que llamo la funcion suma(), viene con esas variables
+#haciendo que la suma siempre sea 50
+
+#ahora creo la funcion suma con los parametros
+def suma1(num1, num2):
+    suma1 = num1 + num2
+    return suma1
+
+#afuera de la funcion hago un print pasando los argumentos
+#asi la variable num1 y num2 tendran valores
+print(suma1(10, 20))
+
+#solicitamos al usuario valores para con esos valores dar arguemntos a suma1
+
+a = int(input("ingresa un numero: "))
+b = int(input("ingresa otro numero mas: "))
+print(suma1(a,b))
