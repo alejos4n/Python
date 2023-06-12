@@ -34,5 +34,20 @@ print(telefono.marca)
 print(telefono.llamar("Hola, mesanje desde el metodo llamar de la clase FabricateTelefono"))
 #llamo el metodo escuchar musica
 telefono.escucharmusica()
+#llamo el metodo nuevo
 telefono.CrearMotorola()
 print(telefono.marca)
+
+
+#Para evitar el procedimiento anterior para llamar un atributo
+#uso el valor __init__
+
+class FabricaCelulares():
+    def __init__(self, marca, color):
+        self.marca = marca
+        self.color = color
+
+#cambia la forma en que paso los valores a los atibutos
+celular = FabricaCelulares("Iphone", "Azul")
+print(celular.marca)
+print(celular.color)
