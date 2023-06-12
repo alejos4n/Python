@@ -19,8 +19,14 @@ class FabricaTelefono():
     
     def escucharmusica(self):
         print("Estoy escuchando musica")
+    
+    #creo un metodo para "reemplazar" el valor de marca
+    # y para poder llamar desde afuera de la clase uso la convencion self
+    #este va antes del atributo y como parametro del metodo
+    def CrearMotorola(self):
+        self.marca = "Motorola"
 
-#Asigno la clase a una variable
+#Creo el objeto telefono
 telefono = FabricaTelefono()
 #muestro un atributo, en este caso la marca
 print(telefono.marca)
@@ -28,3 +34,5 @@ print(telefono.marca)
 print(telefono.llamar("Hola, mesanje desde el metodo llamar de la clase FabricateTelefono"))
 #llamo el metodo escuchar musica
 telefono.escucharmusica()
+telefono.CrearMotorola()
+print(telefono.marca)
