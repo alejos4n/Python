@@ -16,9 +16,15 @@ class FabricaTelefono():
     #creo el meotodo, metodo = funcion, solo cambia que esta en una clase
     def llamar(self, mensaje):
         return mensaje
+    
+    def escucharmusica(self):
+        print("Estoy escuchando musica")
 
 #Asigno la clase a una variable
 telefono = FabricaTelefono()
 #muestro un atributo, en este caso la marca
 print(telefono.marca)
+#imprimo el metodo llamar
 print(telefono.llamar("Hola, mesanje desde el metodo llamar de la clase FabricateTelefono"))
+#llamo el metodo escuchar musica
+telefono.escucharmusica()
