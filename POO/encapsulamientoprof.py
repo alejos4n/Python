@@ -21,4 +21,4 @@ class A():
     
     #me retorna el nuevo valor de contador
     def cuenta(self):
-        return self.contador
+        return self._contador
