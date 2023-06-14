@@ -34,4 +34,27 @@ print(a.cuenta())
 #llamo el contador directamente
 print(a.contador)
 
-#repito el proceso
+#repito el proceso con la clase B
+class B():
+    def __init__(self):
+        self.__contador = 0
+    
+    def incrementar(self):
+        self.__contador += 1
+    
+    def cuenta(self):
+        return self.__contador
+
+print("ahora muestro la clase B()")
+a = B()
+print("muestro la cuenta en 0")
+print(a.cuenta())
+#llamo a contador para que se incremente 1
+print("llamo al contador")
+a.incrementar()
+#vuelvo a mostrar la cuenta
+print("muestro nuevamente la cuenta")
+print(a.cuenta())
+#llamo el contador directamente
+#al ejecutar me da error porque los dos guiones bajos __ quieren decir encapsulamiento
+print(a.__contador)
