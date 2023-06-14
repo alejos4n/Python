@@ -58,3 +58,4 @@ print(a.cuenta())
 #llamo el contador directamente
 #al ejecutar me da error porque los dos guiones bajos __ quieren decir encapsulamiento
 print(a.__contador)
+#el codigo anterior sin encapsular es una mala práctica
