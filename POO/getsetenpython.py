@@ -16,12 +16,24 @@ class A():
     def cuenta(self):
         return self._cuenta
     
+    #usamos set
+    @cuenta.setter
+    def cuenta(self, cuenta):
+        self._cuenta = cuenta
+    
     @property
     def contador(self):
+        return self._contador
+    
+    @contador.setter
+    def contador(self, contador):
         return self._contador
 
 a = A()
 #mostramos el valor del atributo
+print(a.cuenta)
+#seteamos un nuevo valor
+a.cuenta = 20
 print(a.cuenta)
 print(a.contador)
 
